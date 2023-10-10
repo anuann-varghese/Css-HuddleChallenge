@@ -32,15 +32,17 @@ body{
 }
 .text-content{
     height: 40%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    /* padding: 20px; */
     justify-content: space-evenly;
     align-items: center;
 }
 .text-content button{
     padding: 10px 50px;
     width: 50%;
+    
     border-radius: 20px;
     background-color: white;
     color:hsl(257, 40%, 49%) ;
@@ -51,6 +53,6 @@ body{
 }
 .footer{
     position: absolute;
-    bottom: 30px;
+    bottom: 25px;
     font-size: 1.5em;
 }
