@@ -56,3 +56,42 @@ body{
     bottom: 25px;
     font-size: 1.5em;
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        
+        background-color: hsl(257, 40%, 49%);
+        background-image: url(/bg-desktop.svg);
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        
+        
+    
+    }
+    .illustration{
+        width: 50%;
+        height: 60%;
+        background-size: contain;
+    }
+    .text-content{
+        width:40% ;
+        display: flex;
+        font-size: 1.2em;
+        align-items: start;
+        }
+    .text-content button{
+        height: 50px;
+        width: 200px;
+        font-size: 1em;
+    }
+    .logo{
+        top: 60px;
+        left: 40px;
+    }
+    .footer{
+        right: 40px;
+        font-size: 1.6em;
+    }
+}
